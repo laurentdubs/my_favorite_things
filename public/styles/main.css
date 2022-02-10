@@ -1,0 +1,29 @@
+* {
+
+}
+
+body {
+    margin: 0 auto;
+    background-color:papayawhip;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color:gray;
+    width: 400px;
+    margin-bottom: 30px;
+}
+nav.nav li {
+    color:black;
+    font-size: 20px;
+}
+
+

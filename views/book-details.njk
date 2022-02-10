@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block content %}
+<ul>
+    {% for book in myBooks %}
+        <li>
+            <a href="/books/:bookName{{ book.author }}">{{ book.name }}</a>
+            <a href="/books/:bookName{{ book.year }}">{{ book.name }}</a>
+        <li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My list of books</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+    {% block css %}{% endblock %}
+    
+</head>
+<body>
+    <nav class="nav">
+        <li>
+            <a href="Da-Vinci-Code" >{{myBooks[0].name}}
+            </a>
+        </li>
+        <li>
+            <a href="Anges-et-Demons" >{{myBooks[1].name}}
+            </a>
+        </li>
+        <li>
+            <a href="Inferno" >{{myBooks[2].name}}
+            </a>
+        </li>
+    </nav>
+</body>
+</html>
